@@ -12,7 +12,7 @@
 
     <groupId> com.epam.utils<!-- something should be here--></groupId>
     <artifactId>Utils <!-- something should be here--></artifactId>
-    <version>1.0 <!-- something should be here--></version>
+    <version>1.0-SNAPSHOT <!-- something should be here--></version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -20,12 +20,13 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.10</version>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 </project>
