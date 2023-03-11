@@ -10,14 +10,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId> <!-- something should be here--></groupId>
-    <artifactId> <!-- something should be here--></artifactId>
-    <version> <!-- something should be here--></version>
+    <groupId> com.epam.utils<!-- something should be here--></groupId>
+    <artifactId>Utils <!-- something should be here--></artifactId>
+    <version>1.0 <!-- something should be here--></version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <!-- something should be here-->
-
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
